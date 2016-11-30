@@ -1,3 +1,5 @@
+    # routes file grabs from here first then directs to the 'views' folder
+
 class ContactsController < ApplicationController
   def new
     @contact = Contact.new
